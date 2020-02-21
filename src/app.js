@@ -19,6 +19,7 @@ mongoose.connect(process.env.DB_HOST,
 
 // Carrega os Models
 const Product = require('./models/product');
+const Customer = require('./models/customer');
 
 // Carrega as rotas
 const indexRoute = require('./routes/index-route');
